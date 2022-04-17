@@ -7,8 +7,10 @@ export default function App() {
   return (
     <div>
       <p>Increment decrement using redux</p>
+      <button onClick={() => dis(incNumber(5))}>+5</button>
       <button onClick={() => dis(incNumber())}>+</button>
       <input type="text" value={myState} />
+      <button onClick={() => dis(decreNumber(5))}>-5</button>
       <button onClick={() => dis(decreNumber())}>-</button>
     </div>
   );
