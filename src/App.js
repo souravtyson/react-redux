@@ -6,7 +6,7 @@ export default function App() {
   const dis = useDispatch();
   return (
     <div>
-      <p>Increment decrement </p>
+      <p>Increment decrement using redux</p>
       <button onClick={() => dis(incNumber())}>+</button>
       <input type="text" value={myState} />
       <button onClick={() => dis(decreNumber())}>-</button>
